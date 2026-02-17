@@ -122,13 +122,12 @@ int main() {
 
     printf("\nCarta 1: %s.  -  Carta 2: %s.\n", cidade1, cidade2);
 
-
-//Dentro do Switch foi utilizado Operador Ternario 
+//Dentro do Switch da primeira escolha, foi utilizado Operador Ternario 
 switch (ecolhaUsuario1)
 {
 //Comparação Do atributo "POPULAÇÃO" caso o usuario ecolha a opção 2.
 case 1:
-        printf("\n===== ATRIBUTO: POPULAÇÃO =====\n");
+        printf("\nAtributo da Comparação: População.\n");
         printf("\nCarta 1: %d\nCarta 2: %d\n", populacao1, populacao2);
 
 //Primeira verficação se for IGUAL exibe "Empate", se o atributo da primeira carta por MAIOR exibe "CARTA 1 VENCEU" se nenhuma das anteriores forem valida exibe "CARTA 2 VENCEU"
@@ -141,7 +140,7 @@ case 1:
 
 //Comparação Do atributo ""AREA" caso o usuario ecolha a opção 3.
 case 2:
-        printf("\n===== ATRIBUTO: AREA =====\n");
+        printf("\nAtributo da Comparação: Area.\n");
         printf("\nCarta 1: %.2f\nCarta 2: %.2f\n", area1, area2);
 
 //Primeira verficação se for IGUAL exibe "Empate", se o atributo da primeira carta por MAIOR exibe "CARTA 1 VENCEU" se nenhuma das anteriores forem valida exibe "CARTA 2 VENCEU"
@@ -154,7 +153,7 @@ case 2:
 
 //Comparação Do atributo "PIB EM REAIS" caso o usuario ecolha a opção 4.
 case 3:
-        printf("\n===== ATRIBUTO: PIB =====\n");
+        printf("\nAtributo da Comparação: PIB.\n");
         printf("\nCarta 1: %.2f\nCarta 2: %.2f\n", pib1_em_reais, pib2_em_reais);
 
 //Primeira verficação se for IGUAL exibe "Empate", se o atributo da primeira carta por MAIOR exibe "CARTA 1 VENCEU" se nenhuma das anteriores forem valida exibe "CARTA 2 VENCEU"
@@ -167,7 +166,7 @@ case 3:
 
 //Comparação Do atributo "NUMEROS DE PONTOS TURISTICOS" caso o usuario ecolha a opção 5.
 case 4:
-        printf("\n===== ATRIBUTO: PONTOS-TURISTICOS =====\n");
+        printf("\nAtributo da Comparação: Numero De Pontos Turisticos.\n");
         printf("\nCarta 1: %d\nCarta 2: %d\n", npt1, npt2);
 
 //Primeira verficação se for IGUAL exibe "Empate", se o atributo da primeira carta por MAIOR exibe "CARTA 1 VENCEU" se nenhuma das anteriores forem valida exibe "CARTA 2 VENCEU"
@@ -180,7 +179,7 @@ case 4:
 
 //Comparação Do atributo "DENSIDADE DEMOGRAFICA" caso o usuario ecolha a opção 6.
 case 5:
-        printf("\n===== ATRIBUTO: DENSIDADE-DEMOGRAFICA =====\n");
+        printf("\nAtributo da Comparação: Desidade Demografica.\n");
         printf("\nCarta 1: %.4f...\nCarta 2: %.4f...\n", inv_densitpopul1, inv_densitpopul2);
 
 //Primeira verficação se for IGUAL exibe "Empate", se o atributo da primeira carta por MENOR exibe "CARTA 1 VENCEU" se nenhuma das anteriores forem valida exibe "CARTA 2 VENCEU"
@@ -193,7 +192,7 @@ case 5:
 
 //Comparação Do "SUPER PODER" (cauculo de alguns atribustos somados juntos) caso o usuario ecolha a opção 7.
 case 6:
-        printf("\n===== COMPARAÇÃO: SUPER-PODER =====\n");
+        printf("\nAtributo da Comparação: SUPER PODER.\n");
         printf("\nCarta 1: %.2f\nCarta 2: %.2f\n", poder1, poder2);
 
 //Primeira verficação se for IGUAL exibe "Empate", se o atributo da primeira carta por MAIOR exibe "CARTA 1 VENCEU" se nenhuma das anteriores forem valida exibe "CARTA 2 VENCEU"
@@ -213,13 +212,11 @@ default:
 
 
 //Exibição do segundo atributo escolhido pelo usuario
-
-//Dentro do Switch foi utilizado Operador Ternario 
-switch (ecolhaUsuario2)
+    switch (ecolhaUsuario2)
 {
 //Comparação Do atributo "POPULAÇÃO" caso o usuario ecolha a opção 2.
 case 1:
-        printf("\n===== ATRIBUTO: POPULAÇÃO =====\n");
+        printf("\nAtributo da Comparação: População.\n");
         printf("\nCarta 1: %d\nCarta 2: %d\n", populacao1, populacao2);
 
 //Primeira verficação se for IGUAL exibe "Empate", se o atributo da primeira carta por MAIOR exibe "CARTA 1 VENCEU" se nenhuma das anteriores forem valida exibe "CARTA 2 VENCEU"
@@ -232,7 +229,7 @@ case 1:
 
 //Comparação Do atributo ""AREA" caso o usuario ecolha a opção 3.
 case 2:
-        printf("\n===== ATRIBUTO: AREA =====\n");
+        printf("\nAtributo da Comparação: Area.\n");
         printf("\nCarta 1: %.2f\nCarta 2: %.2f\n", area1, area2);
 
 //Primeira verficação se for IGUAL exibe "Empate", se o atributo da primeira carta por MAIOR exibe "CARTA 1 VENCEU" se nenhuma das anteriores forem valida exibe "CARTA 2 VENCEU"
@@ -245,7 +242,7 @@ case 2:
 
 //Comparação Do atributo "PIB EM REAIS" caso o usuario ecolha a opção 4.
 case 3:
-        printf("\n===== ATRIBUTO: PIB =====\n");
+        printf("\nAtributo da Comparação: PIB.\n");
         printf("\nCarta 1: %.2f\nCarta 2: %.2f\n", pib1_em_reais, pib2_em_reais);
 
 //Primeira verficação se for IGUAL exibe "Empate", se o atributo da primeira carta por MAIOR exibe "CARTA 1 VENCEU" se nenhuma das anteriores forem valida exibe "CARTA 2 VENCEU"
@@ -258,7 +255,7 @@ case 3:
 
 //Comparação Do atributo "NUMEROS DE PONTOS TURISTICOS" caso o usuario ecolha a opção 5.
 case 4:
-        printf("\n===== ATRIBUTO: PONTOS-TURISTICOS =====\n");
+        printf("\nAtributo da Comparação: Numero De Pontos Turisticos.\n");
         printf("\nCarta 1: %d\nCarta 2: %d\n", npt1, npt2);
 
 //Primeira verficação se for IGUAL exibe "Empate", se o atributo da primeira carta por MAIOR exibe "CARTA 1 VENCEU" se nenhuma das anteriores forem valida exibe "CARTA 2 VENCEU"
@@ -271,7 +268,7 @@ case 4:
 
 //Comparação Do atributo "DENSIDADE DEMOGRAFICA" caso o usuario ecolha a opção 6.
 case 5:
-        printf("\n===== ATRIBUTO: DESIDADE-DEMOGRAFICA =====\n");
+        printf("\nAtributo da Comparação: Desidade Demografica.\n");
         printf("\nCarta 1: %.4f...\nCarta 2: %.4f...\n", inv_densitpopul1, inv_densitpopul2);
 
 //Primeira verficação se for IGUAL exibe "Empate", se o atributo da primeira carta por MENOR exibe "CARTA 1 VENCEU" se nenhuma das anteriores forem valida exibe "CARTA 2 VENCEU"
@@ -284,7 +281,7 @@ case 5:
 
 //Comparação Do "SUPER PODER" (cauculo de alguns atribustos somados juntos) caso o usuario ecolha a opção 7.
 case 6:
-        printf("\n===== COMPARAÇÃO SUPER-PODER =====\n");
+        printf("\nAtributo da Comparação: SUPER PODER.\n");
         printf("\nCarta 1: %.2f\nCarta 2: %.2f\n", poder1, poder2);
 
 //Primeira verficação se for IGUAL exibe "Empate", se o atributo da primeira carta por MAIOR exibe "CARTA 1 VENCEU" se nenhuma das anteriores forem valida exibe "CARTA 2 VENCEU"
@@ -301,9 +298,9 @@ default:
     break;
 }
 ; 
-//Faz a soma dos dois atributo escolhidos da carta 1 e faz a soma dos dois atributos escolhidos da carta 2 e faz a comparaçao para ver qual vence!
+
     printf("\n===== RESULTADO FINAL =====\n");
-    printf("\nSoma Carta 1: %.2f\n", soma1);
+    printf("Soma Carta 1: %.2f\n", soma1);
     printf("Soma Carta 2: %.2f\n", soma2);
 
     soma1 == soma2 ? printf("\nEmpate Final!\n") :
